@@ -14,7 +14,7 @@ const Header: React.FC<IHeaderProps> = ({name, avatar_url, bio, location, email}
            <header className="Header" id='Header'>
              <h1>{name}</h1>
              <div className='bio'>
-               <img className='avatar_url' src={avatar_url} />
+               <img className='avatar_url' src={avatar_url} alt="my face"/>
                <p>{bio}</p>
                <p>{location}</p>
                <p>{email}</p>

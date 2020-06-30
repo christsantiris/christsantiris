@@ -9,7 +9,7 @@ const Projects: React.FC = () => (
   <div className='skills section-header' id='projects'>
     <h1>My Projects</h1>
     <div className='me'>
-      <p>My work is proprietary, but you can see some applications that I have built for fun here: <a href='https://github.com/christsantiris' target='_blank'>GitHub.</a></p>
+      <p>My work is proprietary, but you can see some applications that I have built for fun here: <a href='https://github.com/christsantiris' target='_blank' rel="noopener noreferrer">GitHub.</a></p>
       <p>Click the images below to try my Batman Vs The Riddler Game, Socket.io Chat App, and Block Breaker game live on the web! More cool apps coming soon!</p>
     </div>
     <div className='gitHub'>
