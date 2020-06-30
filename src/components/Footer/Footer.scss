@@ -3,6 +3,9 @@ $color-blue: #3976c6;
 $color-whitetwo: rgb(202, 215, 230);
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   color: $color-whitetwo;
   font-weight: lighter;
   background: $color-black;
