@@ -34,7 +34,7 @@ render () {
             </button>
           </li>
           <li>
-            <ScrollAnimLink to='top' onClick={() => this.toggle()}>Home
+            <ScrollAnimLink to='Header' onClick={() => this.toggle()}>Home
               <i className='fa fa-chevron-up' aria-hidden='true' />
             </ScrollAnimLink>
           </li>
@@ -49,7 +49,7 @@ render () {
             </ScrollAnimLink>
           </li>
           <li>
-            <ScrollAnimLink to='skills' onClick={() => this.toggle()}>Skills
+            <ScrollAnimLink to='skills' onClick={() => this.toggle()}>Technologies
               <i className='fa fa-bookmark' aria-hidden='true' />
             </ScrollAnimLink>
           </li>
