@@ -6,7 +6,7 @@ const About: React.FC = () => (
     <h1>About Me</h1>
     <div className='me'>
       <p>Hi, I'm Chris, a full stack software engineer from the St Pete/Tampa Bay Area.</p>
-      <p> My favorite coding languages is probably Typescript, but I also enjoy writing code in Python and C# too.</p>
+      <p> My favorite coding languages is probably Typescript, but I enjoy writing code in Python and C# too.</p>
       <p>Currently, I work at PwC where I am a manager and senior developer on several projects.</p>
       <p>I go back and forth between working on the ci cd pipelines and delivering application features.</p>
       <p>Outside of work, I like to be out on the water with my kayak or paddle board, or out riding my bike.</p>
