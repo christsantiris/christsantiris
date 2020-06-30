@@ -4,30 +4,41 @@ import Header from './Header/Header';
 
 type AppState = {
   name: string,
+  avatar_url: string,
+  bio: string,
+  location: string,
+  email: string
 }
 
 class App extends Component<{}, AppState> {
   constructor(props:any) {
     super(props);
     this.state = {
-      name: ''
+      name: '',
+      avatar_url: '',
+      bio: '',
+      location: '',
+      email: 'chris.tsantiris@gmail.com'
     };
   }
 
   componentDidMount () {
-    const GitHubURL = 'https://api.github.com/users/christsantiris'
-    window.fetch(GitHubURL).then((response) => {
+    const gitHubURL = 'https://api.github.com/users/christsantiris'
+    window.fetch(gitHubURL).then((response) => {
       return response.json()
     }).then((data) => {
       this.setState({
         name: data.name,
+        avatar_url: data.avatar_url,
+        bio: data.bio,
+        location: data.location,
       })
     })
   }
   render() {
     return <div>
              <p>Hi {this.state.name} from App</p>
-             <Header name={this.state.name}/>
+             <Header name={this.state.name} avatar_url={this.state.avatar_url} bio={this.state.bio} location={this.state.location} email={this.state.email}/>
           </div>
 
   }
