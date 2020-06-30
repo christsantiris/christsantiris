@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './Header/Header';
 
 type AppState = {
   name: string,
@@ -24,7 +25,11 @@ class App extends Component<{}, AppState> {
     })
   }
   render() {
-    return <p>Hi {this.state.name}</p>
+    return <div>
+             <p>Hi {this.state.name} from App</p>
+             <Header name={this.state.name}/>
+          </div>
+
   }
 }
 
