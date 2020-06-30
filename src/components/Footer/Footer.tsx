@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.scss';
 
+const date = new Date().getFullYear()
+
 const Footer: React.FC = () => (
   <div className='footer' id='socialmedia'>
     <footer>
@@ -22,7 +24,7 @@ const Footer: React.FC = () => (
           </a>
         </li>
     </ul>
-    {/* <h5>Copyright &copy; ${date} Chris Tsantiris.</h5> */}
+    <h5>Copyright &copy; {date} Chris Tsantiris.</h5>
     </footer>
   </div>
 );

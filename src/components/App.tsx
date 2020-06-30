@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import About from './About/About';
 
 type AppState = {
   name: string,
@@ -39,6 +40,7 @@ class App extends Component<{}, AppState> {
   render() {
     return <div>
              <Header name={this.state.name} avatar_url={this.state.avatar_url} bio={this.state.bio} location={this.state.location} email={this.state.email}/>
+             <About />
              <Footer />
           </div>
 
