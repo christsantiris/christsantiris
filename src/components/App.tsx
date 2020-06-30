@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import About from './About/About';
+import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
 
 type AppState = {
   name: string,
@@ -41,6 +43,8 @@ class App extends Component<{}, AppState> {
     return <div>
              <Header name={this.state.name} avatar_url={this.state.avatar_url} bio={this.state.bio} location={this.state.location} email={this.state.email}/>
              <About />
+             <Projects />
+             <Skills />
              <Footer />
           </div>
 

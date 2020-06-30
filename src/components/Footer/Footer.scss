@@ -1,18 +1,18 @@
 $color-black: rgb(8, 58, 88);
 $color-blue: #3976c6;
-$color-whitetwo: rgb(202, 215, 230);
+$color-white: rgb(202, 215, 230);
 
 footer {
   // position: absolute;
   // bottom: 0;
   // width: 100%;
-  color: $color-whitetwo;
+  color: $color-white;
   font-weight: lighter;
   background: $color-black;
-  background: -webkit-linear-gradient(left top, $color-black, $color-blue, $color-whitetwo);
-  background: -o-linear-gradient(bottom right, $color-black, $color-blue, $color-whitetwo);
-  background: -moz-linear-gradient(bottom right, $color-black, $color-blue, $color-whitetwo);
-  background: linear-gradient(to bottom right, $color-black, $color-blue, $color-whitetwo);
+  background: -webkit-linear-gradient(left top, $color-black, $color-blue, $color-white);
+  background: -o-linear-gradient(bottom right, $color-black, $color-blue, $color-white);
+  background: -moz-linear-gradient(bottom right, $color-black, $color-blue, $color-white);
+  background: linear-gradient(to bottom right, $color-black, $color-blue, $color-white);
   margin-top: 2em;
 
   h2 {
@@ -60,7 +60,7 @@ footer {
 
 @media (max-width: 600px) {
   footer {
-    color: $color-whitetwo;
+    color: $color-white;
 
     ul {
       display: flex;
