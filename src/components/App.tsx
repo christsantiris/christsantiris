@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 type AppState = {
   name: string,
@@ -37,8 +38,8 @@ class App extends Component<{}, AppState> {
   }
   render() {
     return <div>
-             <p>Hi {this.state.name} from App</p>
              <Header name={this.state.name} avatar_url={this.state.avatar_url} bio={this.state.bio} location={this.state.location} email={this.state.email}/>
+             <Footer />
           </div>
 
   }
