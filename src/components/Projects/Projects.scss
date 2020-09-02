@@ -1,6 +1,6 @@
 $font-color: hsla(0, 0%, 21%, 1);
 .skills {
-  height: 100vh;
+  min-height: 100vh;
 }
 .section-header {
   font-size: 1.15em;
@@ -34,6 +34,17 @@ $font-color: hsla(0, 0%, 21%, 1);
       justify-content: space-between;
       text-shadow: 4px 4px 8px #427388;
     }
+  }
+
+  div img.gitHubChart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 4em;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 80vw;
   }
 
   @media (max-width: 1150px) {

@@ -5,7 +5,7 @@ $color-whitetwo: rgb(202, 215, 230);
 $font-color: hsla(0, 0%, 21%, 1);
 
 .about {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../../images/book.png);
   background-repeat: no-repeat;
   background-size: contain;
