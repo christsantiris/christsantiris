@@ -1,5 +1,7 @@
 $font-color: hsla(0, 0%, 21%, 1);
-
+.skills {
+  min-height: 100vh;
+}
 .section-header {
   font-size: 1.15em;
   text-align: center;
@@ -32,6 +34,17 @@ $font-color: hsla(0, 0%, 21%, 1);
       justify-content: space-between;
       text-shadow: 4px 4px 8px #427388;
     }
+  }
+
+  div img.gitHubChart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    padding-bottom: 4em;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 80vw;
   }
 
   @media (max-width: 1150px) {
@@ -181,7 +194,6 @@ div img.gitHubChart {
 
   li {
     flex-wrap: wrap;
-    font-size: 4em;
     justify-content: space-between;
     border-radius: 50%;
     margin: 0;

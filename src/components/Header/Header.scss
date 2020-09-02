@@ -1,6 +1,11 @@
 $color-black: rgb(8, 58, 88);
 
 .Header {
+    min-height: 100vh;
+    background-image: url(../../images/mac.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     padding: 0.5em;
     text-align: center;
     color: $color-black;
