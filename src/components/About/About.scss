@@ -4,6 +4,14 @@ $color-white: hsla(177, 8, 99, 1);
 $color-whitetwo: rgb(202, 215, 230);
 $font-color: hsla(0, 0%, 21%, 1);
 
+.about {
+  height: 100vh;
+  background-image: url(../../images/book.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 .section-header {
   font-size: 1.15em;
   text-align: center;
@@ -25,7 +33,7 @@ $font-color: hsla(0, 0%, 21%, 1);
 
     p {
       line-height: 160%;
-      text-align: left;
+      text-align: center;
       margin-bottom: 2em;
       font-size: 1.2em;
 
