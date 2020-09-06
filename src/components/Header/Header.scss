@@ -1,8 +1,9 @@
 $color-black: rgb(8, 58, 88);
+$color-white: hsla(177, 8, 99, 1);
 
 .Header {
     min-height: 100vh;
-    background-image: url(../../images/mac.jpeg);
+    background-image: url(../../images/keyboard2.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -10,6 +11,13 @@ $color-black: rgb(8, 58, 88);
     text-align: center;
     color: $color-black;
     margin-top: 1.75em;
+
+    @media (min-width: 375px) {
+      background-image: url(../../images/keyboard2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
   
     @media (min-width: 450px) {
       padding-top: 1em;
@@ -32,6 +40,7 @@ $color-black: rgb(8, 58, 88);
       font-weight: normal;
       margin: 0 0 0.5em;
       font-variant-caps: small-caps;
+      text-shadow: 2px 2px $color-white;
   
       @media (min-width: 450px) {
         font-size: 2.75em;
@@ -59,8 +68,8 @@ div.bio {
 
 
   img.avatar_url {
-    width: 10em;
-    height: 10em;
+    width: 11em;
+    height: 11em;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -71,6 +80,8 @@ div.bio {
     font-size: 2.1em;
     text-align: center;
     max-width: 500px;
+    font-weight: bolder;
+    text-shadow: 2px 2px $color-white
   }
 
   @media (max-width: 600px) {
