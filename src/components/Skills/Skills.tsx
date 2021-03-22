@@ -27,7 +27,7 @@ const Skills: React.FC = () => (
         <ul className='skill-icons'>  
           <li><i className="devicon-vuejs-line-wordmark"></i></li>  
           <li><i className="devicon-docker-plain-wordmark colored"></i></li>             
-          <li><i className="devicon-django-plain"></i></li>
+          <li><i className="devicon-go-plain"></i></li>
           <li><i className="devicon-dot-net-plain-wordmark colored"></i></li>
           <li><i className="devicon-mongodb-plain-wordmark colored"></i></li>
           <li><i className="devicon-postgresql-plain-wordmark colored"></i></li>
