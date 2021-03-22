@@ -9,6 +9,7 @@ const Skills: React.FC = () => (
       <p><label className="bold-label">Javascript/Typescript:</label> Node.js, React, Angular, Nest.js, Vue.js</p>
       <p><label className="bold-label">Python:</label> Flask, Django</p>
       <p><label className="bold-label">C#:</label> .Net, .Net Core</p>
+      <p><label className="bold-label">Go:</label> Mux, Gin</p>
       <p><label className="bold-label">Databases:</label> MongoDb, Postgres, MSSQL, Neo4j</p>
       <p><label className="bold-label">DevOps:</label> Kubernetes, Docker, Linux, CICD</p>
 
