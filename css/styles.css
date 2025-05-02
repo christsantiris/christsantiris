@@ -581,6 +581,12 @@ progress {
   margin-right: 0.5rem;
 }
 
+.svg-icon {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+}
+
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
