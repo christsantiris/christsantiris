@@ -587,6 +587,10 @@ progress {
   vertical-align: middle;
 }
 
+.skills-font {
+  font-size: 24px;
+}
+
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
