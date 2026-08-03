@@ -19,6 +19,12 @@
         <li class="list-inline-item"><i class="fa-solid fa-c"></i></li>
       </ul>
       <ul class="fa-ul mb-0">
+        <li class="skills-font">
+          <span class="fa-li">
+            <img src="/assets/img/aws.png" alt="AWS Certified AI Practitioner" class="svg-icon" width="24" height="24" />
+          </span>
+          AWS AI Services
+        </li>
         <li class="list-inline-item skills-font">
           <span class="fa-li">
             <img src="/assets/img/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals" class="svg-icon" width="24" height="24" />

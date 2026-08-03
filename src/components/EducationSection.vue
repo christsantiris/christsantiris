@@ -5,6 +5,14 @@
 
       <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="flex-grow-1">
+          <h3 class="mb-0">AWS Certified AI Practitioner (AIFC01)</h3>
+          <div class="subheading mb-3">AWS certified</div>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">July 2026</span></div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
           <h3 class="mb-0">Azure AI 900 - AI Fundamentals</h3>
           <div class="subheading mb-3">Microsoft Certified</div>
         </div>
