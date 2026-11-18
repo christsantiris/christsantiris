@@ -32,42 +32,12 @@
           Azure AI Fundamentals
         </li>
         <li class="skills-font">
-          <span class="fa-li">
-            <img src="/assets/img/Logo-google-cloud-icon-vector-PNG.png" alt="Google Cloud Credential" class="svg-icon" width="24" height="24" />
-          </span>
-          Responsible AI: Applying Responsible AI Principles with Google Cloud
-        </li>
-        <li class="skills-font">
-          <span class="fa-li">
-            <img src="/assets/img/Logo-google-cloud-icon-vector-PNG.png" alt="Google Cloud Credential" class="svg-icon" width="24" height="24" />
-          </span>
-          Introduction to Large Language Models
-        </li>
-        <li class="skills-font">
-          <span class="fa-li">
-            <img src="/assets/img/Logo-google-cloud-icon-vector-PNG.png" alt="Google Cloud Credential" class="svg-icon" width="24" height="24" />
-          </span>
-          Introduction to Generative AI
-        </li>
-        <li class="skills-font">
-          <span class="fa-li">
-            <img src="/assets/img/practical-application-of-gen-ai-for-project-manager.png" alt="PMI AI Certified" class="svg-icon" width="24" height="24" />
-          </span>
-          Gen AI for Project Managers
-        </li>
-        <li class="skills-font">
-          <span class="fa-li">
-            <img src="/assets/img/talking-to-ai-prompt-engineering-for-project-manage.png" alt="PMI Prompt Engineering Certified" class="svg-icon" width="24" height="24" />
-          </span>
-          Prompt Engineering for Project Managers
-        </li>
-        <li class="skills-font">
           <span class="fa-li"><i class="fas fa-check"></i></span>
           Cloud engineering proficiency on all three major cloud platforms: Azure, AWS and GCP
         </li>
         <li class="skills-font">
           <span class="fa-li"><i class="fas fa-check"></i></span>
-          Top cloud skills: Terraform, Docker and Kubernetes
+          Top cloud skills: FinOps, Terraform, Docker and Kubernetes
         </li>
         <li class="skills-font">
           <span class="fa-li"><i class="fas fa-check"></i></span>
