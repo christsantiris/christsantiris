@@ -30,8 +30,8 @@
       <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="flex-grow-1">
           <h3 class="mb-0">Castles 3</h3>
-          <div class="subheading mb-3">Browser Game</div>
-          <p>A strategy game written in C++ with an Eastern Roman theme. Play it right in your browser.</p>
+          <div class="subheading mb-3">Strategy Game</div>
+          <p>A strategy game based on Castles 2 Siege and Conquest written in c++ with an Eastern Roman theme.</p>
           <a href="https://christsantiris.github.io/castles3/" class="btn btn-primary" target="_blank" rel="noopener">
             <i class="fas fa-play me-2"></i>Play in Browser
           </a>
