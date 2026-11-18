@@ -21,6 +21,12 @@
       <ul class="fa-ul mb-0">
         <li class="skills-font">
           <span class="fa-li">
+            <img src="/assets/img/finops.png" alt="FinOps Certified Engineer" class="svg-icon" width="24" height="24" />
+          </span>
+          FinOps
+        </li>
+        <li class="skills-font">
+          <span class="fa-li">
             <img src="/assets/img/aws.png" alt="AWS Certified AI Practitioner" class="svg-icon" width="24" height="24" />
           </span>
           AWS AI Services
@@ -29,7 +35,7 @@
           <span class="fa-li">
             <img src="/assets/img/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals" class="svg-icon" width="24" height="24" />
           </span>
-          Azure AI Fundamentals
+          Azure AI Services
         </li>
         <li class="skills-font">
           <span class="fa-li"><i class="fas fa-check"></i></span>
